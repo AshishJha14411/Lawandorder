@@ -5,7 +5,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ## Deployed Version Link
 
-[Law Home Page](https://poetic-kataifi-116db8.netlify.app/)
+[Law Home Page](https://laworder.netlify.app/)
 
 ## Snapshot of the webpage
 
