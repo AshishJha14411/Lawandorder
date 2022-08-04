@@ -48,6 +48,10 @@ li:hover{
     border: 1px solid #847731;
     color: #847731;
 }
+.navbutton:hover{
+    background-color: #847731;
+    color: #2B2922;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -81,7 +85,122 @@ img[alt=law-hammer]{
 }
 
 img[alt=slider-arrow]{
-    position: relative;
     bottom: .2rem;
-    right: -79.3rem;
+    float: right;
+}
+@media (max-width: 575.98px){
+    body{
+        height: 55rem;
+        overflow-x: hidden;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .logo{
+        transform: scale(.5);
+        margin-left: -9rem;
+        margin-top: -2rem;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+    .list-items{
+        flex-direction: column;
+        margin: 0 0 0 -1rem;
+        text-align: center;
+    }
+    .text-area{
+        flex-direction: column;
+    }
+    .big-text{
+        font-size: 3rem;
+        margin-left: -4rem;
+        margin-top: 10rem;
+    }
+    .small-text{
+        margin-top: -1rem;
+        margin-left: -3.5rem;
+        margin-bottom: 5rem;
+    }
+    img[alt=law-hammer]{
+        margin-left: -5rem;
+        width: 17rem;
+        height: 7rem;
+    }
+    footer{
+        position: relative;
+    }
+    img[alt=slider-arrow]{
+        width: 7rem;
+        margin-right: 19rem;
+    }
+
+
+}
+@media (max-width: 768.98px){
+    body{
+        height: 55rem;
+        overflow-x: hidden;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        transform: scale(.5);
+        margin-left: 0rem;
+        margin-top: -2rem;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+    .list-items{
+        margin: 0 0 0 -6rem;
+        width: 40rem;
+    }
+    .navbutton{
+        transform: scale(1.4);
+        margin-left: 10rem;
+    }
+    .list-item{
+        padding-right: 3rem;
+        font-size: 1rem;
+    }
+    .text-area{
+        flex-direction: column;
+    }
+    .big-text{
+        font-size: 3rem;
+        margin-left: -4rem;
+        margin-top: 5rem;
+        width: 40rem;
+    }
+    .small-text{
+        width: 40rem;
+        margin-top: -1rem;
+        margin-left: -3.5rem;
+        margin-bottom: 5rem;
+    }
+    img[alt=law-hammer]{
+        margin-left: -5.7rem;
+        width: 49rem;
+        height: 17rem;
+        margin-top: -15rem;
+    }
+    img[alt=slider-arrow]{
+        width: 12rem;
+        margin-right: 0rem;
+    }
+}
+@media (min-width: 1920px){
+    body{
+        overflow-x: hidden;
+    }
+    footer{
+        margin-top: 4rem;
+    }
+    img[alt=slider-arrow]{
+        margin-right: 19rem;
+    }
 }
